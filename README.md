@@ -1,42 +1,29 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 42
 
-### Author: Student/Group Name
+### Author: Jen Carrigan
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [sandbox](https://codesandbox.io/s/52xjn1m2on)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `index.js`
+Renders App
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `app.js`
+The App function returns TrollJohn
 
-###### `bar(array) -> array`
-Usage Notes or examples
+#### `troll.js`
+Function charPoses defines the bounce to the words using React library Pose's PoseText
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+Class TrollJohn:
+updateWords updates the state based on incoming words
+handleSubmit updates the state based on form input and sends it to the socket
+handleNewWords sets typedInput state
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+Renders the header, the chat, and the chat input
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML](https://raw.githubusercontent.com/JenCarrigan/data-structures-and-algorithms/master/%3Aassets/lab-42-UML.jpg)
